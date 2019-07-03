@@ -1,5 +1,11 @@
 (function() { // protect the lemmings!
 
+	const newShoppingListItem = (item, price) => {
+		{
+			'item': item
+			'price': price
+		}
+	}
 	/* 1
 		@function newShoppingListItem
 		@param item {string}
