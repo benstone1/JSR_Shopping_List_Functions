@@ -1,11 +1,5 @@
 (function() { // protect the lemmings!
 
-	const newShoppingListItem = (item, price) => {
-		{
-			'item': item
-			'price': price
-		}
-	}
 	/* 1
 		@function newShoppingListItem
 		@param item {string}
@@ -29,6 +23,13 @@
 	*/
 
 	// implement function here
+
+	const newShoppingListItem = (item, price) => {
+		{
+			'item': item
+			'price': price
+		}
+	}
 
 	// TEST
 	describe('1. newShoppingListItem', () => {
